@@ -171,7 +171,7 @@ const dialogState = useDialogState()  <!-- Auto-imported -->
 - This is the **foundation layer** - all other layers depend on it
 - Do not add feature-specific logic here
 - Keep this layer lightweight and focused on shared functionality
-- Auto-scan order: `shared` → `1-auth` → `2-users` → ...
+- Auto-scan order: `shared` → `auth` → `users` → ...
 
 ---
 

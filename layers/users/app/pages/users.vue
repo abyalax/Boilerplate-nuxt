@@ -1,15 +1,16 @@
 <script setup lang="ts">
-import Page from "~~/layers/shared/app/components/layouts/Page.vue";
-import P from "~~/layers/shared/app/components/ui/typography/P.vue";
+import Page from '~~/layers/shared/app/components/layouts/Page.vue';
+import P from '~~/layers/shared/app/components/ui/typography/P.vue';
 
 definePageMeta({
-  layout: "user-layout",
+  layout: 'user-layout',
+  middleware: 'authorization',
 });
 
 const breadcrumbs = [
   {
-    title: "Home",
-    url: "/users",
+    title: 'Home',
+    url: '/users',
     active: false,
   },
 ];

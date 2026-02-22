@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import UserProvider from "../components/fragments/UserProvider.vue";
-
-console.log("UserLayout");
+import UserProvider from '../components/fragments/UserProvider.vue';
 </script>
 <template>
   <UserProvider>

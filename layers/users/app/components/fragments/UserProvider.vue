@@ -1,6 +1,4 @@
-<script setup lang="ts">
-console.log("UserProvider");
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <slot />
