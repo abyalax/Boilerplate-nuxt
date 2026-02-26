@@ -11,7 +11,7 @@ export class UserRepository extends Repository<Prisma.UserDelegate, Prisma.UserW
     super(prisma.user, memoryCache);
   }
 
-  _getModel() {
+  override _getModel() {
     return this.model;
   }
 

@@ -1,5 +1,4 @@
 import { userService } from '~/layers/users/server/services/users.service';
-import { validate } from '#imports';
 import { userQuerySchema } from '~/layers/users/server/validators/users.schema';
 
 export default defineEventHandler(async (event) => {
