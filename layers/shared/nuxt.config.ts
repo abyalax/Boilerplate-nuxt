@@ -1,5 +1,1 @@
-export default defineNuxtConfig({
-  alias: {
-    "#shared": "../layers/shared/shared",
-  },
-});
+export default defineNuxtConfig({});

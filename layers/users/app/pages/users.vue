@@ -14,6 +14,12 @@ const breadcrumbs = [
     active: false,
   },
 ];
+
+const { data: list } = await useFetch('/api/users');
+const { data: user } = await useFetch('/api/users/1');
+
+console.info(list.value);
+console.info(user.value);
 </script>
 
 <template>

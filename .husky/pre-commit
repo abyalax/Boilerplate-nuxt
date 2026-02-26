@@ -1,1 +1,3 @@
+echo "Hold On, Checking Validaty Lint and Type..."
+
 pnpm lint --fix --max-warnings=0
